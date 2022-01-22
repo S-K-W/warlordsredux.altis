@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={10761.854,956.4162,4023.9622};
-		dir[]={0.50245756,-0.83158135,0.23666202};
-		up[]={0.75230843,0.55540293,0.35434401};
-		aside[]={0.42610866,0,-0.90467203};
+		pos[]={10665.11,1210.9843,3917.1648};
+		dir[]={0.5024578,-0.83158118,0.2366621};
+		up[]={0.75230825,0.55540323,0.35434392};
+		aside[]={0.42610863,0,-0.90467209};
 	};
 };
 binarizationWanted=0;
@@ -177,6 +177,7 @@ class ScenarioData
 	author="Jezuro";
 	overviewText="Warlords Redux introduces a lot of new features like Fog of War and random base locations.";
 	overViewPicture="wl_logo_ca.paa";
+	disabledAI=1;
 	joinUnassigned=0;
 	wreckRemovalMaxTime=3600;
 };
