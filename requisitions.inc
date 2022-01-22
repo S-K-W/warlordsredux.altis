@@ -116,12 +116,12 @@ class CfgWLRequisitionPresets
 			{
 				class B_Quadbike_01_F // Quad Bike 	BLUFOR 	NATO 
 				{
-					cost = 100;
+					cost = 25;
 					requirements[] = {};
 				};
 				class B_LSV_01_unarmed_black_F // Prowler (Unarmed) 	BLUFOR 	NATO 
 				{
-					cost = 350;
+					cost = 100;
 					requirements[] = {};
 				};
 				class B_LSV_01_armed_black_F // Prowler (HMG) 	BLUFOR 	NATO (Pacific)
@@ -131,7 +131,7 @@ class CfgWLRequisitionPresets
 				};
 				class B_T_MRAP_01_F // Hunter 	BLUFOR 	NATO (Pacific) 
 				{
-					cost = 500;
+					cost = 250;
 					requirements[] = {};
 				};
 				class B_T_MRAP_01_gmg_F // Hunter GMG 	BLUFOR 	NATO (Pacific)
@@ -146,12 +146,12 @@ class CfgWLRequisitionPresets
 				};
 				class B_T_Truck_01_transport_F // HEMTT Transport 	BLUFOR 	NATO (Pacific) 
 				{
-					cost = 200;
+					cost = 300;
 					requirements[] = {};
 				};
 				class B_T_Truck_01_covered_F // HEMTT Transport (Covered) 	BLUFOR 	NATO (Pacific)
 				{
-					cost = 250;
+					cost = 350;
 					requirements[] = {};
 				};
 				class B_G_Offroad_01_repair_F // Offroad (Repair) 	BLUFOR 	FIA 
@@ -394,12 +394,12 @@ class CfgWLRequisitionPresets
 			{
 				class O_T_Quadbike_01_ghex_F // Quad Bike 	OPFOR 	CSAT (Pacific)  
 				{
-					cost = 100;
+					cost = 25;
 					requirements[] = {};
 				};
 				class O_LSV_02_unarmed_F // Qilin (Unarmed) 	OPFOR 	CSAT 
 				{
-					cost = 350;
+					cost = 100;
 					requirements[] = {};
 				};
 				class O_LSV_02_armed_viper_F // Qilin (Minigun) 	OPFOR 	CSAT 
@@ -409,7 +409,7 @@ class CfgWLRequisitionPresets
 				};
 				class O_T_MRAP_02_ghex_F //  	Ifrit 	OPFOR 	CSAT (Pacific) 
 				{
-					cost = 500;
+					cost = 250;
 					requirements[] = {};
 				};
 				class O_T_MRAP_02_gmg_ghex_F // Ifrit GMG 	OPFOR 	CSAT (Pacific) 	
@@ -424,12 +424,12 @@ class CfgWLRequisitionPresets
 				};
 				class O_T_Truck_03_transport_ghex_F // Tempest Transport 	OPFOR 	CSAT (Pacific) 
 				{
-					cost = 200;
+					cost = 300;
 					requirements[] = {};
 				};
 				class O_T_Truck_03_covered_ghex_F // Tempest Transport (Covered) 	OPFOR 	CSAT (Pacific) 
 				{
-					cost = 250;
+					cost = 350;
 					requirements[] = {};
 				};
 				class O_G_Offroad_01_repair_F // Offroad (Repair) 	OPFOR 	FIA  

@@ -12,7 +12,7 @@ BIS_WL_initModule setVariable ["BIS_WL_fogOfWar", 1];
 BIS_WL_initModule setVariable ["BIS_WL_playersAlpha", 50];
 BIS_WL_initModule setVariable ["BIS_WL_markersAlpha", 50];
 BIS_WL_initModule setVariable ["BIS_WL_requisitionPreset", "['A3ReduxAll']"];
-BIS_WL_initModule setVariable ["BIS_WL_scanCost", 350];
+BIS_WL_initModule setVariable ["BIS_WL_scanCost", 500];
 BIS_WL_initModule setVariable ["BIS_WL_fastTravelCostOwned", 0];
 BIS_WL_initModule setVariable ["BIS_WL_fastTravelCostContested", 50]; //Cost of fast travel to contested sector
 BIS_WL_initModule setVariable ["BIS_WL_fundsTransferCost", 2000];  //default 1000; Increased to 2000 to limits a CP exploit on official servers
@@ -25,7 +25,7 @@ BIS_WL_initModule setVariable ["BIS_WL_dropCost_far", 1000];
 BIS_WL_initModule setVariable ["BIS_WL_autonomous_limit", 2];
 BIS_WL_initModule setVariable ["BIS_WL_arsenalEnabled", TRUE];
 BIS_WL_initModule setVariable ["BIS_WL_arsenalCost", 1000];
-BIS_WL_initModule setVariable ["BIS_WL_maxSubordinates", 8]; //default value 8
+BIS_WL_initModule setVariable ["BIS_WL_maxSubordinates", 10]; //default value 8
 BIS_WL_initModule setVariable ["BIS_WL_assetLimit", 10];
 BIS_WL_initModule setVariable ["BIS_WL_targetResetTimeout", 300];
 BIS_WL_initModule setVariable ["BIS_WL_baseValue", 50]; //this changes money from main base ie starter CP/Min, default value 10
