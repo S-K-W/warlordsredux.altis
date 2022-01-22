@@ -179,6 +179,8 @@ class ScenarioData
 	overViewPicture="wl_logo_ca.paa";
 	disabledAI=1;
 	joinUnassigned=0;
+	respawn=3;
+	respawnDelay=20;
 	wreckRemovalMaxTime=3600;
 };
 class CustomAttributes
@@ -215,7 +217,7 @@ class CustomAttributes
 										"STRING"
 									};
 								};
-								value="None";
+								value="Counter";
 							};
 						};
 					};
