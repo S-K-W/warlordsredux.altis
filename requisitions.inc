@@ -174,24 +174,9 @@ class CfgWLRequisitionPresets
 					cost = 200;
 					requirements[] = {};
 				};
-				class B_UGV_02_Demining_F // ED-1D Pelter 	BLUFOR 	NATO 
-				{
-					cost = 750;
-					requirements[] = {};
-				};
-				class B_T_UGV_01_rcws_olive_F // UGV Stomper RCWS 	BLUFOR 	NATO (Pacific) 
-				{
-					cost = 1000;
-					requirements[] = {};
-				};
 			};
 			class Aircraft
 			{
-				class B_UAV_01_F // AR-2 Darter 	BLUFOR 	NATO 
-				{
-					cost = 500;
-					requirements[] = {};
-				};
 				class B_Heli_Light_01_F // MH-9 Hummingbird 	BLUFOR 	NATO 
 				{
 					cost = 750;
@@ -274,12 +259,6 @@ class CfgWLRequisitionPresets
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
 				};
-				class B_HMG_01_A_F // Mk30A HMG .50 	BLUFOR 	NATO 
-				{
-					cost = 500;
-					requirements[] = {};
-					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
-				};
 				class B_GMG_01_F // Mk32 GMG 20 mm 	BLUFOR 	NATO 
 				{
 					cost = 250;
@@ -289,12 +268,6 @@ class CfgWLRequisitionPresets
 				class B_GMG_01_high_F // Mk32 GMG 20 mm (Raised) 	BLUFOR 	NATO
 				{
 					cost = 250;
-					requirements[] = {};
-					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
-				};
-				class B_GMG_01_A_F // Mk32A GMG 20 mm 	BLUFOR 	NATO 
-				{
-					cost = 500;
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
 				};
@@ -464,11 +437,6 @@ class CfgWLRequisitionPresets
 					cost = 250;
 					requirements[] = {};
 				};
-				class O_T_APC_Wheeled_02_rcws_v2_ghex_F // MSE-3 Marid 	OPFOR 	CSAT (Pacific) 
-				{
-					cost = 3000;
-					requirements[] = {};
-				};
 				class O_G_Offroad_01_repair_F // Offroad (Repair) 	OPFOR 	FIA  
 				{
 					cost = 500;
@@ -484,23 +452,9 @@ class CfgWLRequisitionPresets
 					cost = 200;
 					requirements[] = {};
 				};
-				class O_UGV_02_Demining_F // Akinaka ED-1D 	OPFOR 	CSAT 
-				{
-					cost = 750;
-					requirements[] = {};
-				};
-				class O_T_UGV_01_rcws_ghex_F // UGV Saif RCWS 	OPFOR 	CSAT (Pacific
-				{
-					cost = 1000;
-					requirements[] = {};
-				};
 			};
 			class Aircraft
 			{
-				class O_UAV_01_F // Tayran AR-2 	OPFOR 	CSAT 
-				{
-					cost = 500;
-					requirements[] = {};
 				};
 				class O_Heli_Light_02_F // PO-30 Orca 	OPFOR 	CSAT 
 				{
@@ -584,12 +538,6 @@ class CfgWLRequisitionPresets
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
 				};
-				class O_HMG_01_A_F // Mk30A HMG .50
-				{
-					cost = 500;
-					requirements[] = {};
-					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
-				};
 				class O_GMG_01_F // Mk32 GMG 20 mm
 				{
 					cost = 250;
@@ -599,12 +547,6 @@ class CfgWLRequisitionPresets
 				class O_GMG_01_high_F // Mk32 GMG 20 mm (Raised) 	OPFOR 	CSAT 
 				{
 					cost = 250;
-					requirements[] = {};
-					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
-				};
-				class O_GMG_01_A_F // Mk32A GMG 20 mm 	OPFOR 	CSAT 
-				{
-					cost = 5000;
 					requirements[] = {};
 					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
 				};
