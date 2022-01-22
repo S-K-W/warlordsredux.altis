@@ -12,4 +12,9 @@ Livonia 1.1.0001
 		- only light vehicles allowed for Nato and CSAT (no APC´s/ Tanks)
 		- no fixed wings
 		- only Transport Heli´s
-		
+
+Livonia 1.1.0002
+	- fixed some small errors in requisitions.inc 	
+	
+Livonia 1.2.0001
+	- updated to 2.2.0001 Korb-dev
