@@ -131,7 +131,7 @@ BIS_WL_factionVehicleClasses = [
 		
 		"I_LT_01_AA_F",				100, //Nyx AA, default 50
 		"I_APC_Wheeled_03_cannon_F",		60, //Gorgan, default 50
-		"I_APC_tracked_03_cannon_F",		25, //Mora, default 50
+		"I_E_APC_tracked_03_cannon_F",		25, //Mora, default 50
 		"I_LT_01_AT_F",				80, //Nyx AT, default 50
 		"I_LT_01_cannon_F",			25, //Nyx 20mm, default 50
 		"I_MRAP_03_gmg_F",			25, //strider GMG, default 100
@@ -156,7 +156,7 @@ BIS_WL_factionAircraftClasses = [
 	],
 	[
 		"I_Plane_Fighter_03_CAS_F",	100, //Indy A-10, default 100
-		"I_Heli_light_03_F", 70, //Hellcat with rockets, default 70
+		"I_E_Heli_light_03_F", 70, //Hellcat with rockets, default 70
 		"I_Plane_Fighter_04_F", 50 //A-149 Gryphon. default 50
 		//default value "I_Heli_light_03_dynamicLoadout_F" //hellcat without rockets
 		
