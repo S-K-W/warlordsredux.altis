@@ -24,3 +24,5 @@ Livonia 1.2.0002
 	- max. subordinates increased to 10
 Livonia 1.2.0003
 	-small change in WL2_loadFactionClasses.sqf
+Livonia 1.2.0004
+	- updated to 2.2.0004

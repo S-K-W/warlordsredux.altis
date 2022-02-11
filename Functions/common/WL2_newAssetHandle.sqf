@@ -151,7 +151,18 @@ if (isPlayer _owner) then {
 									if (_asset isKindOf "Air") then {  [player] spawn GOM_fnc_aircraftLoadout; }; 
 
 									_asset selectWeapon _curWeapon;
-									_asset setVariable ["BIS_WL_nextRearm", WL_SYNCED_TIME + WL_MAINTENANCE_COOLDOWN_REARM];					
+
+									////Beta
+									if (_asset isKindOf "Helicopter") then {  _asset setVariable ["BIS_WL_nextRearm", WL_SYNCED_TIME + WL_MAINTENANCE_COOLDOWN_REARM_Helicopter]; 
+									} else { if (_asset isKindOf "Plane") then {  _asset setVariable ["BIS_WL_nextRearm", WL_SYNCED_TIME + WL_MAINTENANCE_COOLDOWN_REARM_Jets]; 
+										} else { if (_asset isKindOf "B_MBT_01_arty_F") then {  _asset setVariable ["BIS_WL_nextRearm", WL_SYNCED_TIME + WL_MAINTENANCE_COOLDOWN_REARM_Artillery];
+											} else { if (_asset isKindOf "O_MBT_02_arty_F") then {  _asset setVariable ["BIS_WL_nextRearm", WL_SYNCED_TIME + WL_MAINTENANCE_COOLDOWN_REARM_Artillery];
+												} else { _asset setVariable ["BIS_WL_nextRearm", WL_SYNCED_TIME + WL_MAINTENANCE_COOLDOWN_REARM]; }
+									}}};   
+									////Beta
+
+
+
 									playSound3D ["A3\Sounds_F\sfx\UI\vehicles\Vehicle_Rearm.wss", _asset, FALSE, getPosASL _asset, 2, 1, 75];
 									[toUpper localize "STR_A3_WL_popup_asset_rearmed"] spawn BIS_fnc_WL2_smoothText;
 								} else {

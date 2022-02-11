@@ -1,7 +1,7 @@
 #define WL_RESPAWN_MARKERS_CNT 20
-#define WL_ZONE_RESTRICTION_KILL_TIMEOUT_INFANTRY 5
-#define WL_ZONE_RESTRICTION_KILL_TIMEOUT_VEHICLES 15
-#define WL_ZONE_RESTRICTION_KILL_TIMEOUT_AIRCRAFT 5
+#define WL_ZONE_RESTRICTION_KILL_TIMEOUT_INFANTRY 600
+#define WL_ZONE_RESTRICTION_KILL_TIMEOUT_VEHICLES 600
+#define WL_ZONE_RESTRICTION_KILL_TIMEOUT_AIRCRAFT 600
 #define WL_MAX_SEIZING_HEIGHT 38 //this is AGL, default value 150, actual cap height = this/2-ish. 50 gives a cap height of 35?
 #define WL_TIMEOUT_MIN 0.025
 #define WL_TIMEOUT_SHORT 0.25
@@ -48,9 +48,12 @@
 #define WL_FRIENDLY_FIRE_THRESHOLD 3
 #define WL_FRIENDLY_FIRE_PENALTY 180
 #define WL_FRIENDLY_FIRE_PENALTY_MAX 600
-#define WL_MAINTENANCE_RADIUS 15
+#define WL_MAINTENANCE_RADIUS 50
 #define WL_MAINTENANCE_COOLDOWN_REPAIR 300
 #define WL_MAINTENANCE_COOLDOWN_REARM 300
+#define WL_MAINTENANCE_COOLDOWN_REARM_Helicopter 600
+#define WL_MAINTENANCE_COOLDOWN_REARM_Jets 1200
+#define WL_MAINTENANCE_COOLDOWN_REARM_Artillery 1800
 #define WL_LOSING_SECTOR_WARN_FREQ 30
 #define WL_MUSIC_VOLUME 0.1
 #define WL_GARRISON_GROUP_SIZE_MIN 3
@@ -60,7 +63,7 @@
 #define RD_KILL_REWARD_MOD 4444  //Original value 10,000
 #define RD_GARRISON_SIZE_MOD 2.5  //Original value 2; adjust this to increase total INF spawning in an AI sector. 
 
-
+#define RD_UAVCOUNT_DELETE_THRESHOLD 1 //Original value 50;  
 #define WL_SYNCED_TIME (call BIS_fnc_WL2_syncedTime)
 #define WL_TARGET_FRIENDLY (missionNamespace getVariable format ["BIS_WL_currentTarget_%1", BIS_WL_playerSide])
 #define WL_TARGET_ENEMY (missionNamespace getVariable format ["BIS_WL_currentTarget_%1", BIS_WL_enemySide])
