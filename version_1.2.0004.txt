@@ -26,5 +26,3 @@ Livonia 1.2.0003
 	-small change in WL2_loadFactionClasses.sqf
 Livonia 1.2.0004
 	- updated to 2.2.0004
-Livonia 1.2.0005
-	-implemented latest GD changes on APS
